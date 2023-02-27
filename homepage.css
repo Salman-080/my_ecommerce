@@ -114,14 +114,43 @@
     list-style-type: none;
     margin-left: 3%;
     margin-top: .4%;
-   
+    
 
   }
 
   .navigation ul li{
 
-    display: inline;
+    
     margin-left: 7%;
     color: white;
+    float: left;
+    border: 1px solid transparent;
   }
   
+  .navigation ul li a{
+
+    color: white;
+    display: block;
+  }
+
+  .navigation ul li a:hover{
+
+    color: brown;
+  }
+
+  .navigation ul:hover{
+    color: aquamarine;
+  }
+
+  .second{
+    height: 300px;
+  }
+
+
+
+
+ .product1{
+
+  margin-left: 5%;
+  margin-bottom: 5%;
+ }
