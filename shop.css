@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+.head{
+
+    width: 100%;
+    background-color: purple;
+    height: 80px;
+}
+
+#ss{
+	
+}
+
+.search {
+	text-align: center;
+	
+}
+
+form {
+	display: inline-block;
+	position: relative;
+}
+
+input[type="text"] {
+	margin-top: 20px;
+	padding: 10px 40px 10px 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	width: 400px;
+}
+
+button[type="submit"] {
+	margin-top: 20px;
+	background-color: #303430;
+	color: #fff;
+	border: none;
+	padding: 11px;
+	border-radius: 5px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+button[type="submit"] img {
+	width: 15px;
+	height: 10px;
+	object-fit: cover;
+}
+
+button[type="submit"]:hover {
+	background-color: #4f37b1;
+}
+
+
+
+
